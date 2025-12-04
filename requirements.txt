@@ -12,3 +12,9 @@ statsmodels
 pmdarima
 pydantic
 joblib
+streamlit
+pandas
+plotly
+statsmodels
+pydantic
+numpy
