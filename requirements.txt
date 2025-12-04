@@ -1,0 +1,14 @@
+sqlalchemy
+python-dotenv
+requests
+pandas
+matplotlib
+seaborn
+numpy
+scikit-learn
+mlflow
+huggingface-hub
+statsmodels
+pmdarima
+pydantic
+joblib

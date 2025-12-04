@@ -1,0 +1,86 @@
+# Environment files
+.env
+.env.*
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Packaging / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / large files (customize as needed)
+data/
+output/
+results/
+
+# ML / model artifacts
+*.h5
+*.pt
+*.pth
+model/mlruns/
+mlruns/
+mlruns
+
+# HuggingFace cache
+.cache/
+models/
+
+# DVC (data version control)
+.dvc/
+*.dvc.lock
+
+# Credentials and secrets
+secrets/
+config/secrets.yaml
+*.key
+*.pem
+
+# Local scratch / temp work
+scratch/
+temp/
+
