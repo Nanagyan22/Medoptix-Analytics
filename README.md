@@ -47,7 +47,7 @@ A real-time command center embedded directly into the application.
 - **Drill-down:** Filter by hospital (Helsinki, Tampere…) or ward (ED, ICU)
 
 ---
-![Dashboard](Dashboard_sarima.png)
+![Dashboard](Dashboard_sarima1.png)
 ---
 
 ### **2. 🔮 ML Forecast Engine (Streamlit)**  
