@@ -12,7 +12,7 @@ st.set_page_config(
     page_title="MedOptix | Hospital Intelligence",
     page_icon="🩺",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="auto"
 )
 
 # CUSTOM CSS
@@ -130,7 +130,7 @@ st.markdown("""
 
 # 2. Sidebar
 with st.sidebar:
-    st.image("https://img.icons8.com/fluency/96/pulse.png", width=60)
+    st.image("image.png", width=60)
     st.title("Menu")
     st.info("System Status: ● Online")
     st.caption("v2.1.0 | © 2025 MedOptix")
