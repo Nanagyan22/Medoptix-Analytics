@@ -312,6 +312,9 @@ with tab_context:
         2.  **External Drivers:** Uses operational data like *Wait Times* and *Staffing Index* to improve accuracy.
         """)
         
+        # model IMAGE HERE
+        st.image("model/sarimax_forecast.png", caption="SARIMAX Forecast Trend", use_container_width=True)
+        
         st.markdown("### 📉 Performance Metrics")
         st.table(pd.DataFrame({
             "Metric": ["RMSE (Root Mean Sq Error)", "MAE (Mean Abs Error)", "R² (Accuracy)"],

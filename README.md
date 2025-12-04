@@ -1,5 +1,9 @@
 # 🩺 MedOptix Analytics | The HealSight Initiative
 
+![Header](header_sarima.png)
+
+---
+
 MedOptix Analytics is a predictive capacity management suite designed to transform reactive hospital operations into proactive, data-driven strategies. As part of the HealSight Initiative, this tool forecasts patient inflows **7–30 days** in advance, enabling hospital administrators to align staffing, bed capacity, and resources efficiently.
 
 ---
@@ -23,7 +27,7 @@ Hospitals in the Nordic public health network faced significant inefficiencies d
 - ❌ Severe staff burnout and soaring overtime costs (**€125k/month**)  
 
 ### **The Solution**  
-A unified intelligence platform combining **real-time visualization** with **AI-driven forecasting** to improve operational decision-making.
+A unified intelligence platform combining **real-time visualization** with **ML-driven forecasting** to improve operational decision-making.
 
 ### 🏆 Quantifiable Impact (Pilot Results)
 
@@ -43,6 +47,8 @@ A real-time command center embedded directly into the application.
 - **Drill-down:** Filter by hospital (Helsinki, Tampere…) or ward (ED, ICU)
 
 ---
+![Dashboard](Dashboard_sarima.png)
+---
 
 ### **2. 🔮 ML Forecast Engine (Streamlit)**  
 An interactive tool for operational scenario planning.
@@ -50,6 +56,9 @@ An interactive tool for operational scenario planning.
 - **Input:** Lagged metrics such as occupancy rate, overflow, wait time, etc.  
 - **Output:** Patient inflow predictions **7–30 days ahead**  
 - **Scenario Testing:** Adjust “Effective Capacity” to simulate resource changes  
+
+---
+![model](Sarima_results.png)
 
 ---
 
@@ -72,15 +81,17 @@ We use a **Seasonal ARIMA with Exogenous Variables (SARIMAX)** model. It capture
 High accuracy with <1 patient average error margin.
 
 ---
+![model](model_sarima.png)
+---
 
 **Francis Afful Gyan**    
 📧 Email: francisaffulgyan@gmail.com  
 🔗 LinkedIn: [https://www.linkedin.com/in/francis-afful-gyan-2b27a5153/]  
-📅 Date: November 2025
+📅 Date: December 2025
 
 ---
 
-**🌐 Live Demo**: [https://perishables.streamlit.app/](https://perishables.streamlit.app/)
+**🌐 Live Demo**: [https://medoptix-analytics.streamlit.app/](https://medoptix-analytics.streamlit.app/)
 
 **📊 Project Status**: Active Development
 
